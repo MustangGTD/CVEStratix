@@ -1,4 +1,4 @@
-# CVEStratix — fresh research edition (0.3.0)
+# CVEStratix — research edition
 
 One IP → open TCP services → candidate CVEs → manual research commands → mitigation suggestions.
 This is a research assistant, not proof of exploitability. Only assess systems you may test.
