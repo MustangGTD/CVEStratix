@@ -1,5 +1,13 @@
 # CVEStratix — research edition
 
+CVEStratix is a Python-based cybersecurity research tool designed to identify exposed TCP services, fingerprint software and web applications, and research potentially relevant CVEs using NVD data.
+
+It combines Nmap-based service discovery with HTTP inspection and application fingerprinting to improve identification when standard service detection is incomplete or uncertain. CVEStratix also provides CVE severity information, applicability evidence, mitigation guidance, and research commands while clearly distinguishing potential matches from confirmed vulnerabilities.
+
+Current capabilities include full or custom TCP scanning, OpenSSH and web-service fingerprinting, OWASP Juice Shop detection, NVD CVE candidate research, confidence-aware results, HTTP security-header inspection, and TXT/JSON/XML reporting.
+
+CVEStratix is intended for authorized security research, lab environments, vulnerability assessment, and defensive security testing.
+
 One IP → open TCP services → candidate CVEs → manual research commands → mitigation suggestions.
 This is a research assistant, not proof of exploitability. Only assess systems you may test.
 
