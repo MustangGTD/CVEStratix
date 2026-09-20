@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+reports/
+report.txt
+report.json
+scan.xml
+
+.env
+*.env
+.DS_Store
